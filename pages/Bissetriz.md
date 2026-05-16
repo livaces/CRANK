@@ -1,9 +1,9 @@
-- Created: [[14-05-2026]] 
-  Updated: [[15-05-2026]] 
+public:: true
+
+- Created: [[May 14th, 2026]] 
+  Updated: [[May 16th, 2026]] 
   Subject: [[Geometria Euclidiana]]
-  
-  public:: true
-- ## 1. Teorema
+- ## 1. Teorema[^1]
   #+BEGIN_QUOTE
   Para todo ponto $M$, se $M$ pertence à bissetriz interna do ângulo $\widehat{xAy}$, então $M$ é **equidistante** das duas retas $(AX)$ e $(Ay)$.
   #+END_QUOTE
@@ -22,23 +22,20 @@
   #+BEGIN_QUOTE
   As bissetrizes internas de um triângulo são concorrentes em um ponto chamado de incentro por ser o centro do círculo inscrito.
   #+END_QUOTE
-  **Demonstração**: seja um triângulo $ABC$ e duas bissetrizes $BJ$ e $CK$ respectivamente dos ângulos $ABC$ e $ACB$. As duas bissetrizes se encontram em um ponto $I.$ Mostre que $AI$ é a terceira bissetriz.
-  ![09.1.png](../assets/09.1_1778874413846_0.png)
-	- Consideramos as bissetrizes de dois dos seus ângulos internos. As duas bissetrizes concorrem num ponto $I$.
+  **Demonstração**: seja um triângulo $ABC$ e duas bissetrizes $(AD)$ e $(BE)$ respectivamente dos ângulos $\widehat{BAC}$ e $\widehat{ABC}$. As duas bissetrizes se encontram em um ponto $I.$ Mostre que $CI$ é a terceira bissetriz.
+  ![image.png](../assets/image_1778938339488_0.png)
+	- O fato de $(AD)$ ser a bissetriz de $\widehat{BAC}$ faz com que $\widehat{BAD}=\widehat{CAD}$. O mesmo vale para os ângulos $\widehat{ABE}$ e $\widehat{CBE}$ que são iguais por serem ângulos cortados pela bissetriz $(BE)$.
 	  
-	  Como o ponto $I$ pertence à bissetriz do ângulo $\widehat{BAC}$, sabemos que ele é equidistante das retas $(AB)$ e $(AC)$. Entretanto, também é equidistante das retas $AB)$ e $(BC)$, por estar na bissetriz do ângulo $ABC$. Assim, concluímos que o ponto $I$ é equidistante das retas $(AC)$ e $(BC)$, pelo que também pertence à bissetriz di ângulo $\widehat{ACB}$.
+	  As duas bissetrizes concorrem num ponto $I$.
 	  
-	  Sejam $H$, $L$ e $G$ os pés das retas perpendiculares aos lados que passam por $I$. Como $I$ está à mesma distância das retas $(AB)$, $(BC)$ e $(AC)$, temos que os segmentos $[IH]=[IL]=[IG]$ são iguais. Assim, a circunferência de centro $I$ que passa num destes pontos, também passa nos outros dois.
+	  Consideramos as bissetrizes de dois dos seus ângulos internos. As duas bissetrizes concorrem num ponto $I$.
 	  
-	  O ponto $I$, ponto de interseção das três bissetrizes, diz-se o incentro do triângulo e a circunferência tangente aos três lados do triângulo chama circunferência inscrita no triângulo.
-	  ![09.png](../assets/09_1778874430221_0.png)
--
-	- Supondo que $AE\not{AD}$, supomos que $AE<AD$, logo existe um ponto $E'$ no segmento $[AD]$ tal que $AE'=AE$. Comparando os triângulos $E'AM$ e $EAM$, temos: $\widehat{E'AM}=\widehat{EAM}$ pois $[AM)$ é a bissetriz.
-	  
-	  $AM$ é lado comum e $E'A=EA$.
-	  
-	  Pelo caso *LAL*[^1], os dois triângulos $E'AM$ e $EAM$ são congruentes, mas $EAM$ é um triângulo retângulo em $E$, logo $E'=D$, pois $MD$ é a única perpendicular à reta $(DA)$ passando por $M$. Temos, então: $ME'=MD=ME$
-	  
-	  ![image.png](../assets/image_1778785002387_0.png)
-	  
-	  [^1]: **L** ($AE'=AE$), **A** ($\widehat{E'AM}=\widehat{EAM}$), **L** ($AM=AM$)
+	  [^1]: Qualquer ponto que pertence às bissetrizes é equidistante dos dois lados daquele ângulo, ou seja, $I$ está na bissetriz $(AD)$ então ele é equidistante dos dois lados do ângulo $\widehat{BAC}$
+	   
+	  Como o ponto $I$ pertence à bissetriz do ângulo $\widehat{BAC}$, sabemos que ele é equidistante das retas $(AB)$ e $(AC)$. Entretanto, também é equidistante das retas $(AB)$ e $(BC)$, por estar na bissetriz do ângulo $ABC$. Assim, concluímos que o ponto $I$ é equidistante das retas $(AC)$ e $(BC)$, pelo que também pertence à bissetriz do ângulo $\widehat{ACB}$.
+	  ![image.png](../assets/image_1778937205234_0.png)
+	  Assim temos $IF=IG$.
+	  Desenhando uma outra perpendicular, $IH$, a distância será a mesma pois $I$ é um ponto da bissetriz, ou seja, temos $IF=IG=IH$ então $IF=IH$. Mas se $IH$ é equidistante de dois lados de um ângulo, $I$ está em uma bissetriz do ângulo $\widehat{ACB}$. Logo, as bissetrizes internas de um triângulo são concorrentes em um ponto $I$.
+	  ![image.png](../assets/image_1778937699825_0.png) 
+	  $I$ é o incentro do triângulo $ABC$, ou seja, é o centro de uma circunferência que é inscrita ao triângulo que é tangente aos três lados do triângulo.
+	  ![image.png](../assets/image_1778937950822_0.png)
