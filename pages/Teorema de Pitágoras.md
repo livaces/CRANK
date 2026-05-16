@@ -29,3 +29,5 @@ public:: true
 - ## Referências
   [^1]: Os triângulos que estão sobre a *mesma base* e nas *mesmas paralelas* são iguais entre si (**Proposição 37**).
   [^2]: Os triângulos que estão sobre a *mesma base* e nas *mesmas paralelas* são iguais entre si (**Proposição 37**).
+  
+  GRIMBERG, Gérard Emile. **Teoremas da Geometria Euclidiana**: Propriedades geométricas. 21 p.
