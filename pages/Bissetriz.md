@@ -13,10 +13,10 @@ public:: true
 	  
 	  $AM$ é lado comum e $E'A=EA$.
 	  
-	  Pelo caso *LAL*[^1], os dois triângulos $E'AM$ e $EAM$ são congruentes, mas $EAM$ é um triângulo retângulo em $E$, logo $E'=D$, pois $MD$ é a única perpendicular à reta $(DA)$ passando por $M$. Temos, então: $ME'=MD=ME$
-	  ![7,1.png](../assets/7,1_1778874384651_0.png) ![image.png](../assets/image_1778785002387_0.png)
+	  Pelo caso *LAL*[^2], os dois triângulos $E'AM$ e $EAM$ são congruentes, mas $EAM$ é um triângulo retângulo em $E$, logo $E'=D$, pois $MD$ é a única perpendicular à reta $(DA)$ passando por $M$. Temos, então: $ME'=MD=ME$
+	  ![7,1.png](../assets/7,1_1778874384651_0.png) 
 	  
-	  [^1]: **L** ($AE'=AE$), **A** ($\widehat{E'AM}=\widehat{EAM}$), **L** ($AM=AM$)
+	  [^2]: L ($AE'=AE$), A ($\widehat{E'AM}=\widehat{EAM}$), L ($AM=AM$).
 	-
 - ## 1.2 Teorema
   #+BEGIN_QUOTE
