@@ -8,11 +8,11 @@ public:: true
   Um ângulo externo de um triângulo é o ângulo suplementar de um ângulo do triângulo.
   O ângulo $\widehat{DCA}$ é um dos ângulos externos do triângulo $ABC$. Um triângulo tem seis ângulos externos.
   ![image.png](../assets/image_1778957301154_0.png)
-- ## 1. Teorema
+- ## 1. Teorema 
   #+BEGIN_QUOTE
   O ângulo externo de um triângulo é maior do que cada um dos ângulos do triângulo que não lhe são adjacentes.
   #+END_QUOTE
-  **Demonstração**: seja um triângulo $ABC$ e o ângulo externo $\widehat{ACD}$. Mostre que o ângulo $\widehat{ACD}$ é maior do que o ângulo $\widehat{BAC}$ sendo $E$ o ponto médio do segmento $[AC]$, trançando a semirreta $[BE)$, e o ponto $F$ desta semirreta tal que $E$ seja também o ponto médio do segmento $[BF]$.
+  **Demonstração**: seja um triângulo $ABC$ e o ângulo externo $\widehat{ACD}$. Mostre que o ângulo $\widehat{ACD}$ é maior do que o ângulo $\widehat{BAC}$ sendo $E$ o ponto médio do segmento $[AC]$, trançando a semirreta $[BE)$, e o ponto $F$ desta semirreta tal que $E$ seja também o ponto médio do segmento $[BF]$. #card 
   ![image.png](../assets/image_1778958405773_0.png)
 	- Comparando os triângulos $ABE$ e $CEF$ temos que os ângulos $\widehat{AEB}$ e $\widehat{CEF}$ são opostos pelo vértice e são, portanto, iguais. Temos também, por construção, $AE=EC$ e $BE=EF$.
 	  
@@ -26,5 +26,8 @@ public:: true
   #+BEGIN_QUOTE
   Para todo triângulo, a soma de dois ângulos do triângulo é menor do que dois ângulos retos.
   #+END_QUOTE
-  **Demonstração**: seja um triângulo $ABC$. Vamos mostrar que a soma do ângulo $\widehat{BAC}$ e do ângulo $\widehat{BCA}$ é menor do que dois ângulos retos.
-- Pelo teorema precedente,
+  **Demonstração**: seja um triângulo $ABC$. Vamos mostrar que a soma do ângulo $\widehat{BAC}$ e do ângulo $\widehat{BCA}$ é menor do que dois ângulos retos. #card
+  ![image.png](../assets/image_1778963997974_0.png)
+	- Pelo teorema anterior[^2], sabemos que o ângulo $\widehat{BAC}$ é menor do que o ângulo externo $\widehat{ACD}$. Temos então $\widehat{BAC}<\widehat{ACD}$. Somando o ângulo $\widehat{ACB}$ aos dois membros desta desigualdade, obtemos: $\widehat{BAC}+\widehat{BCA}<\widehat{ACD}+\widehat{BCA}$. Como os ângulos $\widehat{BCA}$ e $\widehat{ACD}$ são suplementares, obtemos o resultado de que a soma de dois ângulos do triângulo é menor do que dois ângulos retos.
+	  ![image.png](../assets/image_1778963858948_0.png)
+- [^2]: 1. Teorema
