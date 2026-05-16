@@ -1,4 +1,4 @@
-public:: false
+public:: true
 
 - git add .
   git commit -m "Marca páginas como públicas"
