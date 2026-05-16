@@ -1,3 +1,5 @@
+public:: true
+
 - [#A] Created: [[May 15th, 2026]] 
   Updated:
   Subject: [[Geometria Euclidiana]]
@@ -27,4 +29,3 @@
 - ## Referências
   [^1]: Os triângulos que estão sobre a *mesma base* e nas *mesmas paralelas* são iguais entre si (**Proposição 37**).
   [^2]: Os triângulos que estão sobre a *mesma base* e nas *mesmas paralelas* são iguais entre si (**Proposição 37**).
-- public:: true
