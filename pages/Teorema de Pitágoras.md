@@ -1,33 +1,30 @@
-public:: false
-
-- [#A] Created: [[29-04-2026]] 
+- [#A] Created: [[May 15th, 2026]] 
   Updated:
   Subject: [[Geometria Euclidiana]]
+  Tags: #end
 -
-- ## Babilônios
-  heading:: 2
-  Os babilônios já tinham o conhecimento do **Teorema de Pitágoras** mil anos antes de Pitágoras de Samos nascer. [^1]
-- ## Demonstração
-  heading:: 2
+- ## Teorema
   #+BEGIN_QUOTE
-  *Os triângulos, que estão postos sôbre a mesma base, e entre as mesmas paralelas, são iguais*. [^2]
+  Se um triângulo $ABC$ é retângulo em $A$, a soma das áreas dos quadrados construídos sobre os catetos é igual à área do quadrado construído sobre a hipotenusa.
   #+END_QUOTE
-  Se um triângulo BAC é retângulo em A, então a soma das áreas dos quadrados construídos sobre os catetos é igual a área do quadrado construído sobre a hipotenusa.
-  $$c²=b²+a²$$
-  ![image.png](../assets/image_1777471195887_0.png) 
-  I) Pelo axioma de ordem, há um ponto entre os pontos $$H$$ e $$I$$. Com isso, é possível traçar a perpendicular $$\overline{AJ}$$.
-  ![image.png](../assets/image_1777471833673_0.png)
-  *Observações*: o triângulo $$HBA$$ tem por base $$BH$$. Como A está sobre $$(KJ)//(BH)$$ a área de $$HBA$$ é a metade do retângulo $$BH$$
-  ![image.png](../assets/image_1777472175129_0.png)
-  Os triângulos $$GBC$$ e $$GBA$$ têm mesma base $$GB$$ e os vértices $$C$$ e $$A$$ estão sobre a mesma paralela à base. $$\widehat{GBA}$$ tem área da metade de $$FAGB$$.
-  ![image.png](../assets/image_1777473471895_0.png)
-  Comparando $$HBA$$ e $$GBC$$:
-  1.$$\space\widehat{HBA}=\widehat{GBC}$$ pois são compostos cada um por um ângulo reto mais o ângulo $$\widehat{ABC}$$;
-  2.$$\space{BH}=BC$$;
-  3.$$\space{AB}=GB\implies{LAL}$$ prova que $$HBA=GBC$$, mostrando que a área: 
-  $$ BJKH=2\text{ área }{BAH}\newline=2\text{ área }{GBC}\newline =\text{área de }FGBA $$
-  ![image.png](../assets/image_1777474508146_0.png)
+  **Demonstração**: seja um triângulo retângulo em $A$. Construímos os quadrados sobre um dos lados do triângulo.
+  ![image.png](../assets/image_1778891904936_0.png)
+	- Trace uma reta paralela $(r)$ ao segmento $[BD]$ e ao segmento $[CE]$ passando pelo ponto $A$.
+	  $\overline{BF}=\overline{BA}$, pois $AGFB$ é quadrado.
+	  $\overline{BD}=\overline{BC}$, pois $BCED$ é quadrado.
+	  $\widehat{FBC}=\widehat{ABD}$, pois são compostos de um ângulo reto mais o ângulo $\widehat{ABC}$.
+	  Logo temos que o triângulo $FBC$ é congruente ao triângulo $ABD$ pelo caso *LAL*, e, como são congruentes, possuem a **mesma área**
+	  ![image.png](../assets/image_1778894758498_0.png) 
+	  ![image.png](../assets/image_1778894652658_0.png) 
+	  Os triângulos $FBA$ e $FBC$ possuem **mesma área**, pois estão construídos em um **mesmo lado** comum $[FB]$ e o **vértice** está em uma **paralela** à base.[^1]
+	  ![image.png](../assets/image_1778893265548_0.png)
+	  Os triângulos $ABD$ e $PBD$ possuem **mesma área**, pois estão construídos em um **mesmo lado** comum $[BD]$ e o **vértice** está em uma **paralela** à base.[^2]
+	  ![image.png](../assets/image_1778894844751_0.png)
+	  De acordo com as afirmações acima $ABFG$ tem a mesma área de $BPLD$, pois o triângulo $FBA$ é metade do quadrado $AGFB$, o triângulo $PDL$ é metade do retângulo $BDLP$, mas temos que o triângulo $FBA$ têm a mesma área que $FBC$ e o triângulo $BDP$ tem a mesma área que $ABD$ o que significa que, como $FBC$ e $ABD$ têm a mesma área por serem triângulos congruentes, $$FBA$$ e $BDP$ tem a mesma área pois têm áreas de triângulos congruentes. logo a área do quadrado $ABFG$ tem a mesma área de $BPLD$.
+	  
+	  Podendo repetir o mesmo raciocínio para o outro lado, o Teorema de Pitágoras é provado:
+	  ![image.png](../assets/image_1778895516666_0.png)
 - ## Referências
-  heading:: 2
-  [^1]: Autor. Babilônios usavam cálculo do Teorema de Pitágoras mil anos antes da criação da teoria, afirma cientista. **Aventuras na História,** 2021. Disponível em: https://aventurasnahistoria.com.br/noticias/historia-hoje/babilonios-usavam-calculo-do-teorema-de-pitagoras-mil-anos-antes-da-criacao-da-teoria-afirma-cientista.phtml. Acesso em: 29 abr. 2026.
-  [^2]: COMMANDINO, Frederico. **Euclides**: Elementos de Geometria. 1. ed. São Paulo: Edições Cultura, 1944. 24 p. v. 0.
+  [^1]: Os triângulos que estão sobre a *mesma base* e nas *mesmas paralelas* são iguais entre si (**Proposição 37**).
+  [^2]: Os triângulos que estão sobre a *mesma base* e nas *mesmas paralelas* são iguais entre si (**Proposição 37**).
+- public:: true

@@ -1,6 +1,7 @@
 - Created: [[14-05-2026]] 
   Updated: [[15-05-2026]] 
   Subject: [[Geometria Euclidiana]]
+  
   public:: true
 - ## 1. Teorema
   #+BEGIN_QUOTE
