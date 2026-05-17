@@ -5,8 +5,7 @@ public:: true
   Subject: [[Geometria Euclidiana]]
 -
 - ## Definição
-  Um ângulo externo de um triângulo é o ângulo suplementar de um ângulo do triângulo.
-  O ângulo $\widehat{DCA}$ é um dos ângulos externos do triângulo $ABC$. Um triângulo tem seis ângulos externos.
+  Um ângulo externo de um triângulo é o ângulo suplementar de um ângulo do triângulo. O ângulo $\widehat{DCA}$ é um dos ângulos externos do triângulo $ABC$. Um triângulo tem seis ângulos externos.
   ![image.png](../assets/image_1778957301154_0.png)
 - ## 1. Teorema 
   #+BEGIN_QUOTE
@@ -16,7 +15,7 @@ public:: true
   ![image.png](../assets/image_1778958405773_0.png)
 	- Comparando os triângulos $ABE$ e $CEF$ temos que os ângulos $\widehat{AEB}$ e $\widehat{CEF}$ são opostos pelo vértice e são, portanto, iguais. Temos também, por construção, $AE=EC$ e $BE=EF$.
 	  
-	  Pelo caso *LAL* os triângulos $AEB$ e $CEF$ são congruentes e, portanto, $\widehat{BAC}=\widehat{ACF}$. O ponto $F$ está no interior do ângulo $\widehat{ACD}$[^1]. A semirreta $[BE)$ é interior ao ângulo $ABC$, pois $E$ está no segmento $AC$ o que significa que o ponto $F$ está do mesmo lado do que $A$ em relação à reta $(BC)$.
+	  Pelo caso *LAL* os triângulos $AEB$ e $CEF$ são congruentes e, portanto, $\widehat{BAC}=\widehat{ACF}$. O ponto $F$ está no interior do ângulo $\widehat{ACD}$ [^1]. A semirreta $[BE)$ é interior ao ângulo $ABC$, pois $E$ está no segmento $AC$ o que significa que o ponto $F$ está do mesmo lado do que $A$ em relação à reta $(BC)$.
 	  
 	  Os pontos $B$ e $F$ são de lado oposto em relação à reta $(AC)$. Os pontos $B$ e $D$ são também de lado oposto em relação à reta $(AC)$. Logo o ponto $F$ é do mesmo lado do que $D$ em relação à reta $(BD)$, a semirreta $[AF)$ é interior ao ângulo $\widehat{ACD}$.
 	  
@@ -28,6 +27,27 @@ public:: true
   #+END_QUOTE
   **Demonstração**: seja um triângulo $ABC$. Vamos mostrar que a soma do ângulo $\widehat{BAC}$ e do ângulo $\widehat{BCA}$ é menor do que dois ângulos retos. #card
   ![image.png](../assets/image_1778963997974_0.png)
-	- Pelo teorema anterior[^2], sabemos que o ângulo $\widehat{BAC}$ é menor do que o ângulo externo $\widehat{ACD}$. Temos então $\widehat{BAC}<\widehat{ACD}$. Somando o ângulo $\widehat{ACB}$ aos dois membros desta desigualdade, obtemos: $\widehat{BAC}+\widehat{BCA}<\widehat{ACD}+\widehat{BCA}$. Como os ângulos $\widehat{BCA}$ e $\widehat{ACD}$ são suplementares, obtemos o resultado de que a soma de dois ângulos do triângulo é menor do que dois ângulos retos.
+	- Pelo **1. Teorema**, sabemos que o ângulo $\widehat{BAC}$ é menor do que o ângulo externo $\widehat{ACD}$. Temos então $\widehat{BAC}<\widehat{ACD}$. Somando o ângulo $\widehat{ACB}$ aos dois membros desta desigualdade, obtemos: $\widehat{BAC}+\widehat{BCA}<\widehat{ACD}+\widehat{BCA}$. Como os ângulos $\widehat{BCA}$ e $\widehat{ACD}$ são suplementares, obtemos o resultado de que a soma de dois ângulos do triângulo é menor do que dois ângulos retos.
 	  ![image.png](../assets/image_1778963858948_0.png)
-- [^2]: 1. Teorema
+- ## 3. Teorema
+  #+BEGIN_QUOTE
+  Para todo triângulo, o lado maior é interceptado pelo ângulo maior.
+  #+END_QUOTE
+  **Demonstração**: seja um triângulo $ABC$ e o lado $AC$ maior do que o lado $AB$. É possível mostrar que o ângulo $\widehat{ABC}$ é maior do que o ângulo $\widehat{ACB}$. Como $AC>AB$, existe um ponto $D$ do segmento $AC$ tal que $AD=AB$. #card 
+  ![image.png](../assets/image_1778968256385_0.png)
+	- O triângulo $ABD$ é isósceles por construção e seus ângulos $ABD$ e $ADB$ são portanto iguais. Considerando o triângulo $BDC$, o ângulo $ADB$ é um ângulo externo, e o teorema do ângulo externo permite afirmar que o ângulo $\widehat{ADB}$ é maior do que o ângulo $\widehat{ACB}$. Os pontos da semirreta $[BD)$ são anteriores ao ângulo $\widehat{ABC}$. O ângulo $\widehat{ABC}$ é maior do que o ângulo $\widehat{ABD}$.
+	  
+	  Obtemos assim: $\widehat{ABC}>\widehat{ABD}=\widehat{ADB}>\widehat{ACB}$, o que implica em $\widehat{ABC}>\widehat{ACB}$.
+	  ![image.png](../assets/image_1778968198781_0.png)
+- ## 4. Teorema
+  #+BEGIN_QUOTE
+  Para todo triângulo, a soma de dois lados é maior do que o terceiro.
+  #+END_QUOTE
+  **Demonstração**: seja um triângulo $ABC$. É possível mostrar que a soma dos dois lados $AB$ e $AC$ é maior do que o lado $BC$. Sobre a semirreta $[BA)$, seja o ponto $D$ de lado oposto a $B$ em relação ao ponto $A$, tal que $AD=AC$. #card 
+  ![image.png](../assets/image_1778970224789_0.png)
+	- O triângulo $ADC$ é isósceles $(AD=AC)$ e, portanto, o ângulo $\widehat{ACD}$ é igual ao ângulo $\widehat{ADC}$. Como a semirreta $[CA)$ é interior ao ângulo $DCB$, o ângulo $\widehat{ACD}$ é menor do que o ângulo $\widehat{DCB}$, e podemos também afirmar que o ângulo $\widehat{ADC}$ é menor do que o ângulo $\widehat{DCB}$. Considerando o triângulo $BCD$, o teorema "**para todo triângulo, o ângulo maior intercepta o lado maior**" nos permite concluir que o lado oposto ao ângulo $\widehat{BCD}$ é maior do que o lado oposto ao ângulo $\widehat{BDC}$, ou seja, $BD>BC$, mas o lado $BD$ é a soma de $AB$ e $AC$, o que acaba a demonstração.
+	  ![image.png](../assets/image_1778970170645_0.png)
+- ## Referências
+  [^1]: Proposição 2.3.3: [[Teorema do Encontro]]
+  
+  GRIMBERG, Gérard Emile. **Teoremas da Geometria Euclidiana**: Propriedades geométricas. 6 p.
