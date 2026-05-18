@@ -2,9 +2,8 @@
   Updated:
   Subject: [[Vetores no R2 e R3]]
 -
-- O *produto escalar* de dois *vetores* é um *escalar*, ou seja, um número real. Diferentemente, o **produto vetorial**, $\overrightarrow{u}\times\overrightarrow{v}$, é um **vetor**. O produto vetorial gera um vetor **perpendicular**, ou ortogonal, aos dois vetores.
+- O *produto escalar* de dois *vetores* é um *escalar*, ou seja, um número real. Diferentemente, o **produto vetorial**, $\overrightarrow{u}\times\overrightarrow{v}$, é um **vetor**. O produto vetorial gera um vetor **perpendicular**, ou **ortogonal**, aos dois vetores.
   
-  ![image.png](../assets/image_1778609319802_0.png){:height 323, :width 525} ![image.png](../assets/image_1778609455765_0.png){:height 261, :width 641} 
   **Exemplo 1.** Determine o resultado do produto vetorial a seguir:
   $(1,2,3)\times(3,4,5)$
 	- $$\begin{vmatrix}
