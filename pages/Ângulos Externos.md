@@ -8,6 +8,12 @@ public:: true
   Um ângulo externo de um triângulo é o ângulo suplementar de um ângulo do triângulo. O ângulo $\widehat{DCA}$ é um dos ângulos externos do triângulo $ABC$. Um triângulo tem seis ângulos externos.
   ![image.png](../assets/image_1778957301154_0.png)
 - ## 1. Teorema 
+  card-last-interval:: -1
+  card-repeats:: 1
+  card-ease-factor:: 2.5
+  card-next-schedule:: 2026-05-26T03:00:00.000Z
+  card-last-reviewed:: 2026-05-25T17:36:27.365Z
+  card-last-score:: 1
   #+BEGIN_QUOTE
   O ângulo externo de um triângulo é maior do que cada um dos ângulos do triângulo que não lhe são adjacentes.
   #+END_QUOTE
@@ -22,6 +28,12 @@ public:: true
 	  Como o ângulo $\widehat{ACF}$ está dentro do ângulo $\widehat{ACD}$, o ângulo $\widehat{ACD}$ é maior do que o ângulo $\widehat{ACF}$ e, portanto, o ângulo $\widehat{ACD}$ é maior do que o ângulo $\widehat{BAC}$.
 	  ![image.png](../assets/image_1778961402027_0.png)
 - ## 2. Teorema
+  card-last-interval:: 4
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2026-05-29T17:46:33.775Z
+  card-last-reviewed:: 2026-05-25T17:46:33.776Z
+  card-last-score:: 3
   #+BEGIN_QUOTE
   Para todo triângulo, a soma de dois ângulos do triângulo é menor do que dois ângulos retos.
   #+END_QUOTE
@@ -30,6 +42,12 @@ public:: true
 	- Pelo **1. Teorema**, sabemos que o ângulo $\widehat{BAC}$ é menor do que o ângulo externo $\widehat{ACD}$. Temos então $\widehat{BAC}<\widehat{ACD}$. Somando o ângulo $\widehat{ACB}$ aos dois membros desta desigualdade, obtemos: $\widehat{BAC}+\widehat{BCA}<\widehat{ACD}+\widehat{BCA}$. Como os ângulos $\widehat{BCA}$ e $\widehat{ACD}$ são suplementares, obtemos o resultado de que a soma de dois ângulos do triângulo é menor do que dois ângulos retos.
 	  ![image.png](../assets/image_1778963858948_0.png)
 - ## 3. Teorema
+  card-last-interval:: 4
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2026-05-29T18:07:02.150Z
+  card-last-reviewed:: 2026-05-25T18:07:02.151Z
+  card-last-score:: 3
   #+BEGIN_QUOTE
   Para todo triângulo, o lado maior é interceptado pelo ângulo maior.
   #+END_QUOTE
@@ -40,6 +58,12 @@ public:: true
 	  Obtemos assim: $\widehat{ABC}>\widehat{ABD}=\widehat{ADB}>\widehat{ACB}$, o que implica em $\widehat{ABC}>\widehat{ACB}$.
 	  ![image.png](../assets/image_1778968198781_0.png)
 - ## 4. Teorema
+  card-last-interval:: -1
+  card-repeats:: 1
+  card-ease-factor:: 2.5
+  card-next-schedule:: 2026-05-26T03:00:00.000Z
+  card-last-reviewed:: 2026-05-25T18:12:11.233Z
+  card-last-score:: 1
   #+BEGIN_QUOTE
   Para todo triângulo, a soma de dois lados é maior do que o terceiro.
   #+END_QUOTE
