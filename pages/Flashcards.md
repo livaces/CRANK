@@ -1,10 +1,10 @@
 ## Teorema
-card-last-interval:: -1
-card-repeats:: 1
-card-ease-factor:: 2.6
-card-next-schedule:: 2026-06-01T03:00:00.000Z
-card-last-reviewed:: 2026-06-01T01:28:40.895Z
-card-last-score:: 1
+card-last-interval:: 4
+card-repeats:: 2
+card-ease-factor:: 2.7
+card-next-schedule:: 2026-06-05T18:56:11.665Z
+card-last-reviewed:: 2026-06-01T18:56:11.665Z
+card-last-score:: 5
 #+BEGIN_QUOTE
 Se um triângulo $ABC$ é retângulo em $A$, a soma das áreas dos quadrados construídos sobre os catetos é igual à área do quadrado construído sobre a hipotenusa.
 #+END_QUOTE

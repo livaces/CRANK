@@ -11,8 +11,8 @@ public:: true
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2026-05-31T03:00:00.000Z
-  card-last-reviewed:: 2026-05-30T14:36:50.471Z
+  card-next-schedule:: 2026-06-02T03:00:00.000Z
+  card-last-reviewed:: 2026-06-01T17:15:48.463Z
   card-last-score:: 1
   #+BEGIN_QUOTE
   O ângulo externo de um triângulo é maior do que cada um dos ângulos do triângulo que não lhe são adjacentes.
@@ -58,12 +58,12 @@ public:: true
 	  Obtemos assim: $\widehat{ABC}>\widehat{ABD}=\widehat{ADB}>\widehat{ACB}$, o que implica em $\widehat{ABC}>\widehat{ACB}$.
 	  ![image.png](../assets/image_1778968198781_0.png)
 - ## 4. Teorema
-  card-last-interval:: -1
-  card-repeats:: 1
-  card-ease-factor:: 2.5
-  card-next-schedule:: 2026-05-31T03:00:00.000Z
-  card-last-reviewed:: 2026-05-30T14:47:44.227Z
-  card-last-score:: 1
+  card-last-interval:: 4
+  card-repeats:: 2
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2026-06-05T17:37:20.116Z
+  card-last-reviewed:: 2026-06-01T17:37:20.117Z
+  card-last-score:: 5
   #+BEGIN_QUOTE
   Para todo triângulo, a soma de dois lados é maior do que o terceiro.
   #+END_QUOTE

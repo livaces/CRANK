@@ -4,12 +4,12 @@
   Tags:
 -
 - ## 1^{a} Condição
-  card-last-interval:: -1
-  card-repeats:: 1
-  card-ease-factor:: 2.5
-  card-next-schedule:: 2026-06-01T03:00:00.000Z
-  card-last-reviewed:: 2026-06-01T02:09:26.005Z
-  card-last-score:: 1
+  card-last-interval:: 4
+  card-repeats:: 2
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2026-06-05T18:04:22.245Z
+  card-last-reviewed:: 2026-06-01T18:04:22.246Z
+  card-last-score:: 5
   #+BEGIN_QUOTE
   Um paralelogramo tem seus **lados opostos iguais** e seus **ângulos opostos iguais**.
   #+END_QUOTE

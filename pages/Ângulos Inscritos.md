@@ -8,23 +8,23 @@ public:: true
   #+BEGIN_QUOTE
   Em um círculo, o ângulo central é o dobro do ângulo que intercepta o mesmo arco.
   #+END_QUOTE
-	- **Demonstração**: sejam um círculo de centro $O$. Sejam $A$, $B$ e $C$ três pontos do círculo. Mostre que $\widehat{BAC}=\frac{1}{2}\widehat{BOC}$.
+	- **Demonstração**: seja um círculo de centro $O$. Sejam $A$, $B$ e $C$ três pontos do círculo. Mostre que $\widehat{BAC}=\frac{1}{2}\widehat{BOC}$.
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2026-05-31T03:00:00.000Z
-	  card-last-reviewed:: 2026-05-30T12:52:58.199Z
+	  card-next-schedule:: 2026-06-02T03:00:00.000Z
+	  card-last-reviewed:: 2026-06-01T16:36:28.783Z
 	  card-last-score:: 1
 	  
 	  **1.** O centro $O$ pertence ao lado $AB$. #card
 	  ![image.png](../assets/image_1779801378462_0.png)
-		- O triângulo $OAC$ é isósceles, e o ângulo $\widehat{OAC}$ é igual ao ângulo $\widehat{ACO}$. A soma dos dois ângulos $\widehat{OAC}$ e $\widehat{ACO}$ é igual a dois retos menos $\widehat{AOC}$. Como o ângulo central $\widehat{BOC}$ é suplementar do ângulo $\widehat{AOC}$, o ângulo $\widehat{BOC}$ é igual a soma dos dois ângulos $\widehat{OAC}$ e $\widehat{ACO}$. O ângulo $\widehat{BOC}$ é, portanto, o dobro de $\widehat{OAC}$ que é também o ângulo $\widehat{BAC}$.
+		- O triângulo $OAC$ é isósceles, e o ângulo $\widehat{OAC}$ é igual ao ângulo $\widehat{OCA}$. A soma dos dois ângulos $\widehat{OAC}$ e $\widehat{ACO}$ é igual a dois retos menos $\widehat{AOC}$. Como o ângulo central $\widehat{BOC}$ é suplementar do ângulo $\widehat{AOC}$, o ângulo $\widehat{BOC}$ é igual a soma dos dois ângulos $\widehat{OAC}$ e $\widehat{ACO}$. O ângulo $\widehat{BOC}$ é, portanto, o dobro de $\widehat{OAC}$ que é também o ângulo $\widehat{BAC}$.
 	- **Demonstração**: sejam um círculo de centro $O$. Sejam $A$, $B$ e $C$ três pontos do círculo. Mostre que $\widehat{BAC}=\frac{1}{2}\widehat{BOC}$.
 	  card-last-interval:: -1
 	  card-repeats:: 1
 	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2026-06-01T03:00:00.000Z
-	  card-last-reviewed:: 2026-06-01T02:09:29.474Z
+	  card-next-schedule:: 2026-06-02T03:00:00.000Z
+	  card-last-reviewed:: 2026-06-01T18:37:46.254Z
 	  card-last-score:: 1
 	  
 	  **2.** O centro $O$ está interior ao ângulo $\widehat{BAC}$. #card
@@ -34,13 +34,13 @@ public:: true
 		   
 		  $\widehat{BAC}=\widehat{BAD}+\widehat{DAC}=\frac{1}{2}\widehat{BOD}+\frac{1}{2}\widehat{DOC}=\frac{1}{2}\widehat{BOC}$
 		  #+END_CENTER
-	- **Demonstração**: sejam um círculo de centro $O$. Sejam $A$, $B$ e $C$ três pontos do círculo. Mostre que $\widehat{BAC}=\frac{1}{2}\widehat{BOC}$
-	  card-last-interval:: -1
-	  card-repeats:: 1
-	  card-ease-factor:: 2.5
-	  card-next-schedule:: 2026-06-01T03:00:00.000Z
-	  card-last-reviewed:: 2026-06-01T01:41:31.022Z
+	- **Demonstração**: seja um círculo de centro $O$. Sejam $A$, $B$ e $C$ três pontos do círculo. Mostre que $\widehat{BAC}=\frac{1}{2}\widehat{BOC}$
 	  card-last-score:: 1
+	  card-repeats:: 1
+	  card-next-schedule:: 2026-06-02T03:00:00.000Z
+	  card-last-interval:: -1
+	  card-ease-factor:: 2.5
+	  card-last-reviewed:: 2026-06-01T18:42:45.664Z
 	   
 	  **3.** O centro $$O$$ está fora do ângulo $\widehat{BAC}$ #card
 	  ![image.png](../assets/image_1779801794620_0.png)
@@ -51,18 +51,18 @@ public:: true
 		  #+END_CENTER
 -
 - ## 2. Teorema 
-  card-last-interval:: -1
-  card-repeats:: 1
-  card-ease-factor:: 2.5
-  card-next-schedule:: 2026-05-31T03:00:00.000Z
-  card-last-reviewed:: 2026-05-30T12:32:09.043Z
   card-last-score:: 1
+  card-repeats:: 1
+  card-next-schedule:: 2026-06-02T03:00:00.000Z
+  card-last-interval:: -1
+  card-ease-factor:: 2.5
+  card-last-reviewed:: 2026-06-01T16:41:49.481Z
   #+BEGIN_QUOTE
   Os ângulos inscritos que interceptam o mesmo arco são iguais.
   #+END_QUOTE
-  **Demonstração**: os dois ângulos inscritos, sendo a metade do mesmo ângulo central, são igual. #card
+  **Demonstração**: os dois ângulos inscritos, sendo a metade do mesmo ângulo central, são iguais. #card
   ![image.png](../assets/image_1779803484075_0.png)
-	- Seja uma circunferência de centro $O$. Considere o arco $\overgroup{AB}$. Sejam $C$ e $D$ dois pontos distintos sobre a circunferência, situados no arco oposto a $\overgroup{AB}$, de modo que os ângulos $\widehat{ACB}$ e $widehat{ADB}$ interceptem o arco $\widehat{AB}$.
+	- Seja uma circunferência de centro $O$. Considere o arco $\overgroup{AB}$. Sejam $C$ e $D$ dois pontos distintos sobre a circunferência, situados no arco oposto a $\overgroup{AB}$, de modo que os ângulos $\widehat{ACB}$ e $\widehat{ADB}$ interceptem o arco $\widehat{AB}$.
 	   
 	  Pelo teorema do ângulo inscrito, a medida de um ângulo inscrito é igual à metade da medida do arco por ele interceptado. Assim: 
 	  #+BEGIN_CENTER
