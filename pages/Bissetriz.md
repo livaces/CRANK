@@ -39,3 +39,11 @@ public:: true
 	  ![image.png](../assets/image_1778937699825_0.png) 
 	  $I$ é o incentro do triângulo $ABC$, ou seja, é o centro de uma circunferência que é inscrita ao triângulo que é tangente aos três lados do triângulo.
 	  ![image.png](../assets/image_1778937950822_0.png)
+- ## 2. Teorema 
+  #+BEGIN_QUOTE
+  Em um triângulo, as bissetrizes exteriores oriundas de dois vértices concorrem com a bissetriz interior oriunda do terceiro vértice.
+  #+END_QUOTE
+  **Demonstração**: seja o  triângulo $ABC$, $O$ o incentro. Prove que as duas bissetrizes externas oriundas de $B$ e $C$ encontram-se com a bissetriz interna oriunda de A.
+	- Seja $I$ o ponto de encontro dessas duas bissetrizes externas, como $I$ pertence à bissetriz oriunda de B, este ponto está a igual distância das retas $(AB)$ e $(AC)$ e $I$ pertença à bissetriz interna $\widehat{BAC}$.
+	  ![image.png](../assets/image_1779814925504_0.png) 
+	  $I$, $J$ e $K$ são os centros dos círculos exinscritos. Constam os três pontos de tangência de cada um dos quatro círculos, inscrito e exiscritos, com retas $(AB)$, $(BC)$ e $(AC)$.

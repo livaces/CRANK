@@ -1,5 +1,3 @@
-public:: true
-
 - Created: [[May 26th, 2026]] 
   Updated:
   Subject: [[Geometria Euclidiana]] 

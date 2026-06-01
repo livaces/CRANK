@@ -6,6 +6,12 @@ public:: true
   Tags:
 -
 - ## 1. Teorema
+  card-last-interval:: -1
+  card-repeats:: 1
+  card-ease-factor:: 2.5
+  card-next-schedule:: 2026-06-01T03:00:00.000Z
+  card-last-reviewed:: 2026-06-01T01:41:21.502Z
+  card-last-score:: 1
   #+BEGIN_QUOTE
   A intersecção de um feixe de retas paralelas por duas retas transversais forma segmentos proporcionais.
   #+END_QUOTE
@@ -34,7 +40,13 @@ public:: true
 	  
 	  Essas três igualdades permitem afirmar que: $\frac{AB'}{AB}=\frac{AC'}{AC}$.
 - ## 2. Teorema Recíproco de Tales
-  **Demonstração**: seja um triângulo $ABC$ e $B'$ e $C'$ dois pontos respectivamente dos segmentos $[AB]$ e $[AC]$. Se vale a igualdade $\frac{AB'}{AB}=\frac{AC'}{AC}, então a reta $(B'C')$ é paralela à reta $(AB)$. Trace uma reta $(r)$ paralela ao lado $BC$ passando pelo ponto $B'$. Esta reta corta o lado $AC$ em $E$. #card
+  card-last-interval:: -1
+  card-repeats:: 1
+  card-ease-factor:: 2.5
+  card-next-schedule:: 2026-05-31T03:00:00.000Z
+  card-last-reviewed:: 2026-05-30T13:09:48.959Z
+  card-last-score:: 1
+  **Demonstração**: seja um triângulo $ABC$ e $B'$ e $C'$ dois pontos respectivamente dos segmentos $[AB]$ e $[AC]$. Se vale a igualdade $\frac{AB'}{AB}=\frac{AC'}{AC}$, então a reta $(B'C')$ é paralela à reta $(AB)$. Trace uma reta $(r)$ paralela ao lado $BC$ passando pelo ponto $B'$. Esta reta corta o lado $AC$ em $E$. #card
   ![image.png](../assets/image_1779807547710_0.png)
 	- Como as retas $(BC)$ e $(B'E)$ são paralelas, temos $\frac{AB'}{AB}=\frac{AE}{AC}$.
 	   

@@ -6,12 +6,12 @@ public:: true
   Tags:
 -
 - ## 1. Teorema 
-  card-last-interval:: -1
-  card-repeats:: 1
-  card-ease-factor:: 2.5
-  card-next-schedule:: 2026-05-26T03:00:00.000Z
-  card-last-reviewed:: 2026-05-25T17:35:43.255Z
-  card-last-score:: 1
+  card-last-score:: 5
+  card-repeats:: 2
+  card-next-schedule:: 2026-06-03T13:48:18.615Z
+  card-last-interval:: 4
+  card-ease-factor:: 2.6
+  card-last-reviewed:: 2026-05-30T13:48:18.616Z
   #+BEGIN_QUOTE
   Seja um triângulo $ABC$. Sejam $P$ ponto de $(BC)$, $Q$ ponto de $(AC)$ e $R$ ponto de $(AB)$. Se $P$, $Q$ e $R$ são alinhados, então, vale a segunte relação: 
    
@@ -19,9 +19,9 @@ public:: true
   $\frac{\overline{PB}}{\overline{PC}}\times\frac{\overline{QC}}{\overline{QA}}\times\frac{\overline{RA}}{\overline{RB}}=+1$
   #+END_CENTER 
   #+END_QUOTE
-  **Demonstração**: no ponto $C$, traça-se a paralela à rela $(PQ)$. Esta reta intercepta a reta $(AC)$ em $R'$. #card 
+  **Demonstração**: no ponto $C$, traça-se a paralela à reta $(PQ)$. Esta reta intercepta a reta $(AC)$ em $R'$. #card 
   ![image.png](../assets/image_1779389440031_0.png)
-	- Considerando os triângulos $RPB$ e $R'CB$: eles são triângulos são congruentes, pois possuem um vértice $B$ em comum e os lados opostos a este vértice estão sobre a mesma reta (por causa que $(CB')//(PR)$, logo temos: 
+	- Considerando os triângulos $RPB$ e $R'CB$: eles são triângulos são congruentes, pois possuem um vértice $B$ em comum e os lados opostos a este vértice estão sobre a mesma reta (por causa que $(CR')//(PR)$, logo temos: 
 	  #+BEGIN_CENTER
 	   
 	  $\frac{\overline{PB}}{\overline{PC}}=\frac{\overline{RB}}{\overline{RR'}}$
@@ -37,12 +37,12 @@ public:: true
 	  $\frac{\overline{PB}}{\overline{PC}}\times\frac{\overline{QC}}{\overline{QA}}\times\frac{\overline{RA}}{\overline{RB}}=\frac{\overline{RB}}{\overline{RR'}}\times\frac{\overline{RR'}}{\overline{RA}}\times\frac{\overline{RA}}{\overline{RB}}=+1$
 	  #+END_CENTER
 - ## 2. Teorema Recíproco 
-  card-last-interval:: -1
-  card-repeats:: 1
-  card-ease-factor:: 2.5
-  card-next-schedule:: 2026-05-26T03:00:00.000Z
-  card-last-reviewed:: 2026-05-25T18:09:18.794Z
-  card-last-score:: 1
+  card-last-interval:: 4
+  card-repeats:: 2
+  card-ease-factor:: 2.6
+  card-next-schedule:: 2026-06-03T13:30:26.716Z
+  card-last-reviewed:: 2026-05-30T13:30:26.716Z
+  card-last-score:: 5
   #+BEGIN_QUOTE
   Seja um triângulo $ABC$ um triângulo. Os pontos $P$, $Q$ e $R$ pertencem, respectivamente, às retas $(BC)$, $(AC)$ e $(AB)$. Se vale a igualadade: 
   #+BEGIN_CENTER

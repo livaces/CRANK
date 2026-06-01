@@ -11,8 +11,8 @@ public:: true
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2026-05-26T03:00:00.000Z
-  card-last-reviewed:: 2026-05-25T17:36:27.365Z
+  card-next-schedule:: 2026-05-31T03:00:00.000Z
+  card-last-reviewed:: 2026-05-30T14:36:50.471Z
   card-last-score:: 1
   #+BEGIN_QUOTE
   O ângulo externo de um triângulo é maior do que cada um dos ângulos do triângulo que não lhe são adjacentes.
@@ -29,11 +29,11 @@ public:: true
 	  ![image.png](../assets/image_1778961402027_0.png)
 - ## 2. Teorema
   card-last-interval:: 4
-  card-repeats:: 1
-  card-ease-factor:: 2.36
-  card-next-schedule:: 2026-05-29T17:46:33.775Z
-  card-last-reviewed:: 2026-05-25T17:46:33.776Z
-  card-last-score:: 3
+  card-repeats:: 2
+  card-ease-factor:: 2.46
+  card-next-schedule:: 2026-06-05T01:19:37.742Z
+  card-last-reviewed:: 2026-06-01T01:19:37.743Z
+  card-last-score:: 5
   #+BEGIN_QUOTE
   Para todo triângulo, a soma de dois ângulos do triângulo é menor do que dois ângulos retos.
   #+END_QUOTE
@@ -43,11 +43,11 @@ public:: true
 	  ![image.png](../assets/image_1778963858948_0.png)
 - ## 3. Teorema
   card-last-interval:: 4
-  card-repeats:: 1
-  card-ease-factor:: 2.36
-  card-next-schedule:: 2026-05-29T18:07:02.150Z
-  card-last-reviewed:: 2026-05-25T18:07:02.151Z
-  card-last-score:: 3
+  card-repeats:: 2
+  card-ease-factor:: 2.46
+  card-next-schedule:: 2026-06-05T01:27:26.427Z
+  card-last-reviewed:: 2026-06-01T01:27:26.427Z
+  card-last-score:: 5
   #+BEGIN_QUOTE
   Para todo triângulo, o lado maior é interceptado pelo ângulo maior.
   #+END_QUOTE
@@ -61,8 +61,8 @@ public:: true
   card-last-interval:: -1
   card-repeats:: 1
   card-ease-factor:: 2.5
-  card-next-schedule:: 2026-05-26T03:00:00.000Z
-  card-last-reviewed:: 2026-05-25T18:12:11.233Z
+  card-next-schedule:: 2026-05-31T03:00:00.000Z
+  card-last-reviewed:: 2026-05-30T14:47:44.227Z
   card-last-score:: 1
   #+BEGIN_QUOTE
   Para todo triângulo, a soma de dois lados é maior do que o terceiro.
